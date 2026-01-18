@@ -7,7 +7,7 @@ spec:
   selector:
     app: myapp
   ports:
-  - port: 80
-    targetPort: 3000   # match containerPort
+  - port: 3000
+    targetPort: 3000
     nodePort: 30007
 
