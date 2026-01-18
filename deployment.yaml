@@ -12,9 +12,8 @@ spec:
       labels:
         app: myapp
     spec:
-       containers:
-       - name: myapp-container
-         image: yourdockerhubusername/ myapp:1.0
-         ports:
-         - containerPort: 80
-
+      containers:
+      - name: myapp-container
+        image: mohdyaseenkumar/compose-demo:1.0
+        ports:
+        - containerPort: 3000
